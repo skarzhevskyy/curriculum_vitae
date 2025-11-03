@@ -1,0 +1,138 @@
+%% start of file `resume.tex'.
+%% Copyright 2025 Your Name (email@example.com)
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+
+% moderncv themes
+\moderncvstyle{banking}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+
+% personal data
+\firstname{John}
+\familyname{Doe}
+\address{123 Main Street}{City, Country}
+
+% \mobile{+1~(234)~567~890}
+\email{john.doe@example.com}
+\homepage{www.johndoe.com}
+\extrainfo{github.com/johndoe}
+
+% bibliography adjustments (only useful if you make citations in your resume, or print a list of publications using BibTeX/biblatex)
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Experience}
+
+\cventry
+  {2022 - Present}
+  {Senior Software Developer}
+  {Tech Company Inc.}
+  {City, Country}{}
+  {
+    \vspace{0.5em}
+    Led development of microservices architecture using Spring Boot and Node.js, implementing CI/CD pipelines that reduced deployment time by 60\%. Mentored junior developers and conducted code reviews ensuring high code quality standards. Technologies: Java, Spring Boot, Node.js, Docker, Kubernetes, AWS.
+    \vspace{1em}
+  }
+
+\cventry
+  {2020 - 2022}
+  {Software Developer}
+  {StartUp Ltd.}
+  {City, Country}{}
+  {
+    \vspace{0.5em}
+    Developed RESTful APIs and frontend applications using React, optimizing database queries resulting in 40\% performance improvement. Collaborated with cross-functional teams in Agile environment to deliver high-quality software solutions. Technologies: Python, Django, React, PostgreSQL, Redis.
+    \vspace{1em}
+  }
+
+\cventry
+  {2018 - 2020}
+  {Junior Developer}
+  {Software Solutions Co.}
+  {City, Country}{}
+  {
+    \vspace{0.5em}
+    Built responsive web applications using modern JavaScript frameworks, participating in full software development lifecycle. Implemented automated testing strategies to improve code quality and reliability. Technologies: JavaScript, Vue.js, Node.js, MongoDB.
+    \vspace{1em}
+  }
+
+\section{Education}
+
+\cventry
+  {2014 - 2018}
+  {Bachelor of Science in Computer Science}
+  {University Name}
+  {City, Country}
+  {\textit{GPA: 3.8/4.0}}
+  {}
+  % {Relevant coursework: Data Structures, Algorithms, Database Systems, Web Development, Software Engineering}
+
+\section{Open Source \& Projects}
+
+\cventry
+  {2023 - Present}
+  {Lead Developer}
+  {E-Commerce Platform}
+  {}{}
+  {
+    \vspace{0.5em}
+    Built a full-stack e-commerce application with payment integration, implementing real-time inventory management and order tracking. Technologies: React, Node.js, MongoDB, Stripe API. Available at github.com/johndoe/ecommerce-platform.
+    \vspace{1em}
+  }
+
+\cventry
+  {2022 - 2023}
+  {Core Contributor}
+  {Task Management System}
+  {}{}
+  {
+    \vspace{0.5em}
+    Developed a collaborative project management tool with real-time updates, integrating WebSocket for live collaboration features. Technologies: Vue.js, Spring Boot, PostgreSQL. Available at github.com/johndoe/task-manager.
+    \vspace{1em}
+  }
+
+\cventry
+  {2021 - 2022}
+  {Creator \& Maintainer}
+  {API Gateway}
+  {}{}
+  {
+    \vspace{0.5em}
+    Created a microservices API gateway with authentication and rate limiting, implementing service discovery and load balancing. Technologies: Go, Redis, Docker, Kubernetes. Available at github.com/johndoe/api-gateway.
+    \vspace{1em}
+  }
+
+%\section{Certifications}
+%\cventry
+%  {2023}
+%  {AWS Certified Solutions Architect - Associate}
+%  {}{}{}{}
+%\cventry
+%  {2021}
+%  {Oracle Certified Professional, Java SE 11 Developer}
+%  {}{}{}{}
+
+%\section{Skills}
+%\cvitem{Programming Languages}{Java, Python, JavaScript, TypeScript, Go, SQL}
+%\cvitem{Frameworks \& Libraries}{Spring Boot, Django, React, Vue.js, Node.js, Express}
+%\cvitem{Databases}{PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch}
+%\cvitem{DevOps \& Tools}{Docker, Kubernetes, Jenkins, GitLab CI, AWS, Git, Linux}
+%\cvitem{Methodologies}{Agile/Scrum, Test-Driven Development, Microservices, RESTful APIs}
+
+\end{document}
+

@@ -1,0 +1,79 @@
+.idea/*
+
+# Build directory for intermediate files
+build/
+
+# Assets (preview images are tracked)
+# assets/
+
+# LaTeX Build Artifacts (in case they end up in src/)
+# --------------------
+# Main auxiliary files
+*.aux
+*.lof
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Intermediate documents
+*.dvi
+*.xdv
+*-converted-to.*
+
+# Bibliography auxiliary files
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Build tool auxiliary files
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Build tool directories
+*latex.out/
+
+# Latexmk
+*.fdb_latexmk
+
+# Makeindex
+*.idx
+*.ilg
+*.ind
+
+# Glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+
+# Hyperref
+*.brf
+
+# Misc
+*.snm
+*.nav
+*.vrb
+*.backup
+*~
+
+# Output files (comment out if you want to track PDFs in git)
+# *.pdf
+
+examples/*
