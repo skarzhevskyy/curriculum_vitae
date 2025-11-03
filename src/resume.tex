@@ -1,5 +1,5 @@
 %% start of file `resume.tex'.
-%% Copyright 2025 Your Name (email@example.com)
+%% Copyright 2025 Vlad Skarzhevskyy (vlad@skarzhevskyy.com)
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License version 1.3c,
@@ -17,14 +17,14 @@
 \usepackage[scale=0.85]{geometry}
 
 % personal data
-\firstname{John}
-\familyname{Doe}
-\address{123 Main Street}{City, Country}
+\firstname{Vlad}
+\familyname{Skarzhevskyy}
+\address{Toronto, ON}{Canada}
 
-% \mobile{+1~(234)~567~890}
-\email{john.doe@example.com}
-\homepage{www.johndoe.com}
-\extrainfo{github.com/johndoe}
+\mobile{416-602-8523}
+\email{vlad@skarzhevskyy.com}
+\homepage{skarzhevskyy.com}
+\extrainfo{github.com/skarzhevskyy}
 
 % bibliography adjustments (only useful if you make citations in your resume, or print a list of publications using BibTeX/biblatex)
 %\usepackage{multibib}
@@ -39,81 +39,59 @@
 \section{Experience}
 
 \cventry
-  {2022 - Present}
-  {Senior Software Developer}
-  {Tech Company Inc.}
-  {City, Country}{}
+  {1995 - 1998}
+  {Software Engineer}
+  {DIGITAL Equipment Corporation (DEC)}
+  {}{}
   {
     \vspace{0.5em}
-    Led development of microservices architecture using Spring Boot and Node.js, implementing CI/CD pipelines that reduced deployment time by 60\%. Mentored junior developers and conducted code reviews ensuring high code quality standards. Technologies: Java, Spring Boot, Node.js, Docker, Kubernetes, AWS.
+    Internet based versions Customer care and order-handling systems.
     \vspace{1em}
   }
 
 \cventry
-  {2020 - 2022}
-  {Software Developer}
-  {StartUp Ltd.}
-  {City, Country}{}
+  {1993 - 1994}
+  {Programmer-Researcher}
+  {Main Astronomical Observatory of National Academy of Sciences of Ukraine}
+  {}{}
   {
     \vspace{0.5em}
-    Developed RESTful APIs and frontend applications using React, optimizing database queries resulting in 40\% performance improvement. Collaborated with cross-functional teams in Agile environment to deliver high-quality software solutions. Technologies: Python, Django, React, PostgreSQL, Redis.
+    Developed software for processing results of astronomical observations. Computer Simulation of Mathematical Models of light absorption by dust particles in rotating double star systems.
     \vspace{1em}
   }
 
-\cventry
-  {2018 - 2020}
-  {Junior Developer}
-  {Software Solutions Co.}
-  {City, Country}{}
-  {
-    \vspace{0.5em}
-    Built responsive web applications using modern JavaScript frameworks, participating in full software development lifecycle. Implemented automated testing strategies to improve code quality and reliability. Technologies: JavaScript, Vue.js, Node.js, MongoDB.
-    \vspace{1em}
-  }
 
 \section{Education}
 
 \cventry
-  {2014 - 2018}
-  {Bachelor of Science in Computer Science}
-  {University Name}
-  {City, Country}
-  {\textit{GPA: 3.8/4.0}}
+  {1987 - 1993}
+  {M. Sc. in Applied Mathematics and Physics}
+  {Moscow Institute of Physics and Technology}
+  {Moscow, Russia}
   {}
-  % {Relevant coursework: Data Structures, Algorithms, Database Systems, Web Development, Software Engineering}
+  {}
 
 \section{Open Source \& Projects}
 
 \cventry
-  {2023 - Present}
-  {Lead Developer}
-  {E-Commerce Platform}
-  {}{}
-  {
-    \vspace{0.5em}
-    Built a full-stack e-commerce application with payment integration, implementing real-time inventory management and order tracking. Technologies: React, Node.js, MongoDB, Stripe API. Available at github.com/johndoe/ecommerce-platform.
-    \vspace{1em}
-  }
-
-\cventry
-  {2022 - 2023}
-  {Core Contributor}
-  {Task Management System}
-  {}{}
-  {
-    \vspace{0.5em}
-    Developed a collaborative project management tool with real-time updates, integrating WebSocket for live collaboration features. Technologies: Vue.js, Spring Boot, PostgreSQL. Available at github.com/johndoe/task-manager.
-    \vspace{1em}
-  }
-
-\cventry
-  {2021 - 2022}
+  {2007}
   {Creator \& Maintainer}
-  {API Gateway}
+  {BlueCove}
   {}{}
   {
     \vspace{0.5em}
-    Created a microservices API gateway with authentication and rate limiting, implementing service discovery and load balancing. Technologies: Go, Redis, Docker, Kubernetes. Available at github.com/johndoe/api-gateway.
+    JSR-82 implementation on J2SE. Available at http://bluecove.org/.
+    \vspace{1em}
+  }
+
+\cventry
+  {2006}
+  {Core Contributor}
+  {MicroEmulator}
+  {}{}
+  {
+    \vspace{0.5em}
+    Pure Java implementation of J2ME in J2SE.
     \vspace{1em}
   }
 
@@ -127,12 +105,13 @@
 %  {Oracle Certified Professional, Java SE 11 Developer}
 %  {}{}{}{}
 
-%\section{Skills}
-%\cvitem{Programming Languages}{Java, Python, JavaScript, TypeScript, Go, SQL}
-%\cvitem{Frameworks \& Libraries}{Spring Boot, Django, React, Vue.js, Node.js, Express}
-%\cvitem{Databases}{PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch}
-%\cvitem{DevOps \& Tools}{Docker, Kubernetes, Jenkins, GitLab CI, AWS, Git, Linux}
-%\cvitem{Methodologies}{Agile/Scrum, Test-Driven Development, Microservices, RESTful APIs}
+\section{Skills}
+\cvitem{Cloud \& Infrastructure}{Kubernetes, AWS EKS, RDS, Karpenter, Terraform}
+\cvitem{Monitoring \& Observability}{Prometheus, Grafana, Loki}
+\cvitem{Development \& Testing Tools}{GitLab, Chaos Mesh, Toxiproxy, YourKit}
+\cvitem{E2E Testing Frameworks}{Playwright, Selenium, K6}
+\cvitem{Frameworks}{Spring Boot, CXF, Micrometer}
+\cvitem{AI/ML}{LangChain4j, Spring AI, Amazon Bedrock}
 
 \end{document}
 
