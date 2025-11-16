@@ -23,8 +23,8 @@
 
 \mobile{416-602-8523}
 \email{vlad@skarzhevskyy.com}
-\homepage{skarzhevskyy.com}
-\extrainfo{github.com/skarzhevskyy}
+%\homepage{skarzhevskyy.com}
+%\extrainfo{github.com/skarzhevskyy}
 
 % bibliography adjustments (only useful if you make citations in your resume, or print a list of publications using BibTeX/biblatex)
 %\usepackage{multibib}
@@ -37,6 +37,42 @@
 \makecvtitle
 
 \section{Experience}
+
+\cventry
+  {2011 - 2025}
+  {Software Developer / DevOps Engineer / Technical Architect}
+  {Property Vista}
+  {}{}
+  {
+    \vspace{0.5em}
+    Led architecture and delivery of a multi-tenant SaaS property management platform, with end-to-end responsibility for reliability, modernization, and developer productivity.
+    \begin{itemize}
+      \item Migrated core workloads to AWS using Kubernetes (EKS) and Terraform-based Infrastructure as Code for both business and development environments.
+      \item Owned and evolved the company payments platform, ensuring secure integrations and stable transaction processing.
+      \item Implemented observability and platform capabilities (Prometheus, Grafana, ephemeral preview environments) to accelerate development, QA, and incident response.
+      \item Established GitOps-driven configuration management and data retention practices (Soft Delete patterns, configuration auditability).
+      \item Built a Slack-based AI assistant to expose release progress, PR and JIRA status, and availability of test environments for Product, Dev, and QA teams.
+    \end{itemize}
+    \vspace{1em}
+  }
+
+\cventry
+  {1998 - Present}
+  {Senior Software Developer}
+  {Amdocs}
+  {}{}
+  {
+    \vspace{0.5em}
+    Senior developer and product owner for an enterprise-grade workflow and billing platform used by major telecom operators, designed for performance and reliability in air-gapped, on-premise environments.
+    \begin{itemize}
+      \item Designed and implemented a Java-based workflow execution engine for large-scale business processes, with multi-stage execution, data persistence, and external system integrations.
+      \item Built and evolved a custom ORM with transactional, multi-database support (PostgreSQL, Oracle, H2), including schema generation, migration, and data retention with background cleanup jobs.
+      \item Implemented REST and SOAP services using Apache CXF and integrated authentication with Keycloak (OAuth2/OpenID Connect) and LDAP/Active Directory.
+      \item Led CI/CD modernization in GitLab, including migration from Bitbucket, centralized Maven repositories, automated testing, and artifact retention policies.
+      \item Containerized the application and introduced Helm-based deployment to Kubernetes (AWS EKS) while maintaining a dual deployment model for traditional executable JARs.
+    \end{itemize}
+    \vspace{1em}
+  }
 
 \cventry
   {1995 - 1998}
@@ -108,9 +144,9 @@
 \section{Skills}
 \cvitem{Cloud \& Infrastructure}{Kubernetes, AWS EKS, RDS, Karpenter, Terraform}
 \cvitem{Monitoring \& Observability}{Prometheus, Grafana, Loki}
-\cvitem{Development \& Testing Tools}{GitLab, Chaos Mesh, Toxiproxy, YourKit}
+\cvitem{Development \& Testing Tools}{GitLab CI/CD, Chaos Mesh, Toxiproxy, YourKit}
 \cvitem{E2E Testing Frameworks}{Playwright, Selenium, K6}
-\cvitem{Frameworks}{Spring Boot, CXF, Micrometer}
+\cvitem{Frameworks}{Spring Boot, CXF, Keycloak, Micrometer}
 \cvitem{AI/ML}{LangChain4j, Spring AI, Amazon Bedrock}
 
 \end{document}

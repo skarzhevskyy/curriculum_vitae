@@ -31,7 +31,7 @@ Responsible for system reliability, product outages and alizes and designing and
 
 ---
 
-1998 - Present
+1998 - Present  Amdocs
 
 2008-2025 Senior Software Developer, Software development and support of Amdocs application for Major Telecoms.
 
@@ -57,8 +57,10 @@ Enterprise-grade application designed for managing and executing large-scale bus
 - Helm charts for application deployment in customer environments.
 - E2E and integration test automation.
 - Project OSS dependency lifecycle management and long-term maintenance and updates with Zero CVE goals.  Sonatype Nexus, Renovate, SBOM, DependencyTrack, BlackDuck.
- 
-2002-2008 Senior Software Developer, Software development and support of Amdocs application for Major US Telecom.
+
+past Amdocs experience:
+
+2002-2008 Senior Software Developer, Software development and support of Amdocs application
 Service Order Processing application.
 J2EE based applications. Hibernate persistence.
 Struts, JSP, AJAX application front-end.
