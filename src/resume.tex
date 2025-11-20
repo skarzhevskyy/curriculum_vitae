@@ -1,5 +1,5 @@
 %% start of file `resume.tex'.
-%% Copyright 2025 Your Name (email@example.com)
+%% Copyright 2025 Vlad Skarzhevskyy (vlad@skarzhevskyy.com)
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License version 1.3c,
@@ -17,14 +17,14 @@
 \usepackage[scale=0.85]{geometry}
 
 % personal data
-\firstname{John}
-\familyname{Doe}
-\address{123 Main Street}{City, Country}
+\firstname{Vlad}
+\familyname{Skarzhevskyy}
+\address{Toronto, ON}{Canada}
 
-% \mobile{+1~(234)~567~890}
-\email{john.doe@example.com}
-\homepage{www.johndoe.com}
-\extrainfo{github.com/johndoe}
+\mobile{416-602-8523}
+\email{vlad@skarzhevskyy.com}
+%\homepage{skarzhevskyy.com}
+%\extrainfo{github.com/skarzhevskyy}
 
 % bibliography adjustments (only useful if you make citations in your resume, or print a list of publications using BibTeX/biblatex)
 %\usepackage{multibib}
@@ -39,83 +39,144 @@
 \section{Experience}
 
 \cventry
-  {2022 - Present}
+  {2021 - 2025}
+  {Technical Architect}
+  {Property Vista}
+  {}{}
+  {
+    \vspace{0.5em}
+    Application Modernization, Maintenance, and Operations. Accountable for system reliability, outage analysis, and implementing preventive measures to reduce production incidents.
+    \begin{itemize}
+      \item Migrated existing products from monolith to microservices architecture.
+      \item Designed and implemented Data Retention and Compliance strategy, including technical implementation of Soft Delete patterns and configuration auditability.
+      \item Promoted DevOps best practices within the organization, including Infrastructure as Code (IaC) with Terraform.
+      \item Migrated to and maintained Kubernetes infrastructure for business and development workloads (AWS EKS).
+      \item Set up application observability using Prometheus and Grafana for monitoring and alerting.
+      \item Built a POC Slack-based AI assistant to expose release progress, PR and JIRA status, and availability of test environments.
+    \end{itemize}
+    \vspace{1em}
+  }
+
+\cventry
+  {2019 - 2021}
   {Senior Software Developer}
-  {Tech Company Inc.}
-  {City, Country}{}
+  {Amdocs}
+  {}{}
   {
     \vspace{0.5em}
-    Led development of microservices architecture using Spring Boot and Node.js, implementing CI/CD pipelines that reduced deployment time by 60\%. Mentored junior developers and conducted code reviews ensuring high code quality standards. Technologies: Java, Spring Boot, Node.js, Docker, Kubernetes, AWS.
+    Made the same application deployable and work effectively across Cloud, Air-gapped, and On-Premise environments.
+    \begin{itemize}
+      \item Java application modernization, AWS Lift and Shift, and Kubernetes deployment (AWS EKS).
+      \item Containerization, Helm Charts, CI/CD with GitLab CI, E2E test automation, and dependency management.
+      \item Maintained dual deployment model supporting both containerized and traditional executable JAR deployments.
+    \end{itemize}
     \vspace{1em}
   }
 
 \cventry
-  {2020 - 2022}
-  {Software Developer}
-  {StartUp Ltd.}
-  {City, Country}{}
+  {2012 - 2019}
+  {Senior Software Developer}
+  {Property Vista}
+  {}{}
   {
     \vspace{0.5em}
-    Developed RESTful APIs and frontend applications using React, optimizing database queries resulting in 40\% performance improvement. Collaborated with cross-functional teams in Agile environment to deliver high-quality software solutions. Technologies: Python, Django, React, PostgreSQL, Redis.
+    Built SaaS property management application company from the ground up. Business requirements analysis, SDLC planning and execution. Coder and code reviewer for Java and Infrastructure teams.
+    \begin{itemize}
+      \item Designed and implemented multi-tenant data access ORM layer with transaction management and scalable automatic database schema migration.
+      \item Owned and evolved the company payments platform, ensuring secure integrations and stable transaction processing.
+      \item Automated business processes for customers and development processes for internal team.
+    \end{itemize}
     \vspace{1em}
   }
 
 \cventry
-  {2018 - 2020}
-  {Junior Developer}
-  {Software Solutions Co.}
-  {City, Country}{}
+  {2008 - 2012}
+  {Senior Software Developer}
+  {Amdocs}
+  {}{}
   {
     \vspace{0.5em}
-    Built responsive web applications using modern JavaScript frameworks, participating in full software development lifecycle. Implemented automated testing strategies to improve code quality and reliability. Technologies: JavaScript, Vue.js, Node.js, MongoDB.
+    Designed and built large-scale business process automation Java platform for major telecom operators from the ground up.
+    \begin{itemize}
+      \item Designed and implemented Java-based workflow execution engine with multi-stage execution, data persistence, and external system integrations.
+      \item Built custom ORM with transactional, multi-database support (PostgreSQL, Oracle, H2), including schema generation and migration.
+    \end{itemize}
     \vspace{1em}
   }
+
+\cventry
+  {1998 - 2008}
+  {Senior Software Developer}
+  {Amdocs}
+  {}{}
+  {
+    \vspace{0.5em}
+    Payments and Billing systems development and support for major telecom operators.
+    \begin{itemize}
+      \item Implemented REST and SOAP services using Apache CXF.
+      \item Integrated authentication with LDAP/Active Directory.
+      \item Developed large volume Credit Card transaction processing systems using C++ and PL/SQL.
+      \item Provided production support and performance optimization for billing platforms.
+    \end{itemize}
+    \vspace{1em}
+  }
+
+% \cventry
+%   {1995 - 1998}
+%   {Internet Infrastructure Engineer}
+%   {DIGITAL Equipment Corporation (DEC)}
+%   {}{}
+%   {
+%     \vspace{0.5em}
+%     Built Internet networks in Ukraine, from physical cabling and routing to early Internet application development.
+%     \vspace{1em}
+%   }
+
+% \cventry
+%   {1993 - 1994}
+%   {Researcher}
+%   {Main Astronomical Observatory of National Academy of Sciences of Ukraine}
+%   {}{}
+%   {
+%     \vspace{0.5em}
+%     Developed software for processing results of astronomical observations. Computer Simulation of Mathematical Models of light absorption by dust particles in rotating double star systems.
+%     \vspace{1em}
+%   }
+
 
 \section{Education}
 
 \cventry
-  {2014 - 2018}
-  {Bachelor of Science in Computer Science}
-  {University Name}
-  {City, Country}
-  {\textit{GPA: 3.8/4.0}}
+  {1987 - 1993}
+  {M. Sc. in Applied Mathematics and Physics}
+  {Moscow Institute of Physics and Technology}
+  {Moscow, Russia}
   {}
-  % {Relevant coursework: Data Structures, Algorithms, Database Systems, Web Development, Software Engineering}
+  {}
 
-\section{Open Source \& Projects}
-
-\cventry
-  {2023 - Present}
-  {Lead Developer}
-  {E-Commerce Platform}
-  {}{}
-  {
-    \vspace{0.5em}
-    Built a full-stack e-commerce application with payment integration, implementing real-time inventory management and order tracking. Technologies: React, Node.js, MongoDB, Stripe API. Available at github.com/johndoe/ecommerce-platform.
-    \vspace{1em}
-  }
-
-\cventry
-  {2022 - 2023}
-  {Core Contributor}
-  {Task Management System}
-  {}{}
-  {
-    \vspace{0.5em}
-    Developed a collaborative project management tool with real-time updates, integrating WebSocket for live collaboration features. Technologies: Vue.js, Spring Boot, PostgreSQL. Available at github.com/johndoe/task-manager.
-    \vspace{1em}
-  }
-
-\cventry
-  {2021 - 2022}
-  {Creator \& Maintainer}
-  {API Gateway}
-  {}{}
-  {
-    \vspace{0.5em}
-    Created a microservices API gateway with authentication and rate limiting, implementing service discovery and load balancing. Technologies: Go, Redis, Docker, Kubernetes. Available at github.com/johndoe/api-gateway.
-    \vspace{1em}
-  }
+% \section{Open Source \& Projects}
+%
+% \cventry
+%   {2007}
+%   {Creator \& Maintainer}
+%   {BlueCove}
+%   {}{}
+%   {
+%     \vspace{0.5em}
+%     JSR-82 implementation on J2SE. Available at http://bluecove.org/.
+%     \vspace{1em}
+%   }
+%
+% \cventry
+%   {2006}
+%   {Core Contributor}
+%   {MicroEmulator}
+%   {}{}
+%   {
+%     \vspace{0.5em}
+%     Pure Java implementation of J2ME in J2SE.
+%     \vspace{1em}
+%   }
 
 %\section{Certifications}
 %\cventry
@@ -127,12 +188,13 @@
 %  {Oracle Certified Professional, Java SE 11 Developer}
 %  {}{}{}{}
 
-%\section{Skills}
-%\cvitem{Programming Languages}{Java, Python, JavaScript, TypeScript, Go, SQL}
-%\cvitem{Frameworks \& Libraries}{Spring Boot, Django, React, Vue.js, Node.js, Express}
-%\cvitem{Databases}{PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch}
-%\cvitem{DevOps \& Tools}{Docker, Kubernetes, Jenkins, GitLab CI, AWS, Git, Linux}
-%\cvitem{Methodologies}{Agile/Scrum, Test-Driven Development, Microservices, RESTful APIs}
+\section{Skills}
+\cvitem{Cloud \& Infrastructure}{Kubernetes, AWS EKS, RDS, Karpenter, Terraform}
+\cvitem{Monitoring \& Observability}{Prometheus, Grafana, Loki}
+\cvitem{Development \& Testing Tools}{GitLab CI/CD, Chaos Mesh, Toxiproxy, YourKit}
+\cvitem{E2E Testing Frameworks}{Playwright, Selenium, K6}
+\cvitem{Frameworks}{Spring Boot, Resilience4j,  Micrometer}
+\cvitem{AI/ML}{LangChain4j, Spring AI, Amazon Bedrock}
 
 \end{document}
 
