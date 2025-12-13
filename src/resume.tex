@@ -22,7 +22,7 @@
 \address{Toronto, ON}{Canada}
 
 \mobile{416-602-8523}
-\email{vlad@skarzhevskyy.com}
+\email{skarzhevskyy@gmail.com}
 %\homepage{skarzhevskyy.com}
 %\extrainfo{github.com/skarzhevskyy}
 
@@ -36,6 +36,9 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
+\section{Summary}
+\cvitem{}{Senior backend engineer and technical architect with deep experience building scalable platforms and distributed systems in Java. Owned and evolved a payments platform, focusing on reliable transaction processing, secure integrations, and production-grade operations on AWS/Kubernetes.}
+
 \section{Experience}
 
 \cventry
@@ -45,14 +48,14 @@
   {}{}
   {
     \vspace{0.5em}
-    Application Modernization, Maintenance, and Operations. Accountable for system reliability, outage analysis, and implementing preventive measures to reduce production incidents.
+    Application modernization, maintenance, and operations for a SaaS platform, including payments. Accountable for system reliability, outage analysis, and implementing preventive measures to reduce production incidents.
     \begin{itemize}
+      \item Owned and evolved the company payments platform, ensuring secure integrations and reliable transaction processing.
       \item Migrated existing products from monolith to microservices architecture.
       \item Designed and implemented Data Retention and Compliance strategy, including technical implementation of Soft Delete patterns and configuration auditability.
       \item Promoted DevOps best practices within the organization, including Infrastructure as Code (IaC) with Terraform.
       \item Migrated to and maintained Kubernetes infrastructure for business and development workloads (AWS EKS).
       \item Set up application observability using Prometheus and Grafana for monitoring and alerting.
-      \item Built a POC Slack-based AI assistant to expose release progress, PR and JIRA status, and availability of test environments.
     \end{itemize}
     \vspace{1em}
   }
@@ -189,12 +192,15 @@
 %  {}{}{}{}
 
 \section{Skills}
-\cvitem{Cloud \& Infrastructure}{Kubernetes, AWS EKS, RDS, Karpenter, Terraform}
-\cvitem{Monitoring \& Observability}{Prometheus, Grafana, Loki}
+\cvitem{Cloud \& Infrastructure}{Kubernetes, AWS EKS, RDS, Karpenter, Terraform, Crossplane}
+\cvitem{Payments}{Payment platform ownership, Credit Cards, EFT, Direct Bill Payments, Outbound Payments}
+\cvitem{Databases}{PostgreSQL, Cloud Native PostgreSQL, Oracle, MySQL}
+\cvitem{Monitoring \& Observability}{Prometheus, Grafana, Loki, OpenTelemetry, Datadog}
 \cvitem{Development \& Testing Tools}{GitLab CI/CD, Chaos Mesh, Toxiproxy, YourKit}
 \cvitem{E2E Testing Frameworks}{Playwright, Selenium, K6}
-\cvitem{Frameworks}{Spring Boot, Resilience4j,  Micrometer}
+\cvitem{Frameworks}{Spring Boot, Resilience4j, Micrometer}
 \cvitem{AI/ML}{LangChain4j, Spring AI, Amazon Bedrock}
+
 
 \end{document}
 
